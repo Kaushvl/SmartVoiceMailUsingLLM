@@ -60,20 +60,6 @@ def HandleCallInput(strAudioFilePath):
 
 
 if __name__ == '__main__':
-    strCallInText = '''I hope this message finds you amidst your day. I'm reaching out with a heavy heart to share some sad news. There's been a loss in our family, and I wanted to let you know as soon as possible.
 
-We've lost  and it's been incredibly tough for all of us. The void they've left behind is immense, and we're grappling with a mix of emotions.
-
-I know this news might come as a shock, and I understand if you need some time to process it. But if you can spare a moment, your support and presence would mean the world to us. Even a quick call or a message to offer your condolences would be deeply appreciated.
-
-We're planning , and your presence would bring some comfort during this difficult time. If you can make it, please let me know as soon as possible so we can coordinate accordingly.
-
-In the meantime, if you need anything or just want to talk, I'm here for you.
-
-Sending you love and strength during this challenging time.'''
-
-    # print(TextProcessing(strCallInText=strCallInText))
-
-
-    print(HandleCallInput(r"transtest2.mp3"))
+    print(HandleCallInput(r"Data\transtest1.mp3"))
 
